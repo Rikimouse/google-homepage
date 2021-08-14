@@ -1,10 +1,22 @@
 body {
     font: serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
   
   ul li {
     display: inline;
+  }
   
+  a{
+  padding-right: 10px; 
   }
   
   .topbar {
@@ -20,6 +32,7 @@ body {
   
   .searchbar {
     display: flex;
+    align-items: center;
     justify-content: center;
     padding: 20px;
   }
@@ -55,10 +68,11 @@ body {
   .country {
     display: flex;
     justify-content: flex-start;
-    background: lightgray;
+    background: #ddd;
   }
   
   .bottombarleft {
+    bottom: 0;
     display: flex;
     align-items: flex-start;
     background: lightgray;
@@ -66,7 +80,7 @@ body {
   }
   
   .bottombarright {
-    display: flex;
-    justify-content: flex-end;
+  bottom: 0;
+  float: right;
   }
   
