@@ -24,6 +24,9 @@ body {
     justify-content: flex-end;
   }
   
+  .roundicon{
+    
+  }
   #logo {
     display: flex;
     align-items: center;
@@ -51,7 +54,7 @@ body {
   
   .buttons {
     padding: 10px;
-    background-color: lightgray;
+    background-color: #ddd;
     border-style: solid;
     border-width: 1px;
     border-color: transparent;
@@ -75,11 +78,13 @@ body {
     bottom: 0;
     display: flex;
     align-items: flex-start;
-    background: lightgray;
+    background: #ddd;
     justify-content: flex-start;
   }
   
   .bottombarright {
+    display: flex;
+    justify-content: flex-end;
   bottom: 0;
   float: right;
   }
