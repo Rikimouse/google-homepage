@@ -1,75 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-  <head>
-    <meta charset="UTF-8">
-    <title>Google</title>
-    
-    <link rel="stylesheet" href="mystyle.css">
-    <link rel="shortcut icon" type="image/x-icon" href="https://www.freepngimg.com/download/google/67060-play-photos-search-google-account-png-file-hd.png">
+<head>
+  <meta charset="utf-8">
+  <title>Google by Rikimouse</title>
+  <link rel="stylesheet" href="mystyle.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+</head>
 
-  </head>
+<body>
 
-  <body>
-    <!-- Top Bar -->
-    <div class="topbar">
-      <ul>
-        <li><a href="https://mail.google.com/mail/&ogbl">Gmail</a></li>
-        <li><a href="https://www.google.com.my/imghp?hl=en&ogbl">Images</a></li>
-        <li class="roundicon"><a href="https://www.google.com.my/intl/en/about/products"><img src="images/apps_icon.png" alt="Google apps"></a></li>
-        <li class="roundicon"><a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAmgQ"><img src="images/accountcircle_icon.png" alt="Sign In"></a></li>
-      </ul>
-    </div>
-    <!-- Google Logo -->
-    <div>
-      <a href="http://google.com">
-        <p id="logo"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" width="300" height="100" alt="Google" </p>
-      </a>
-    </div>
+  <!-- Top Nav Bar -->
+  <nav>
+    <ul class="topnavbar">
+      <li><a id="gmail" href="https://mail.google.com/mail/&ogbl">Gmail</a></li>
+      <li><a id="images" href="https://www.google.com.my/imghp?hl=en&ogbl">Images</a></li>
+      <li id="liapps"><a id="apps" href="https://www.google.com.my/intl/en/about/products"><span class="material-icons">apps</span></a></li>
+      <li id="liaccount"><span class="material-icons" id="account_circle">account_circle</span></li>
+    </ul>
+  </nav>
 
-    <!-- Search Bar -->
+  <!-- Google Logo -->
+  <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
 
-    <form class=searchbar action="#action" method="post">
-      <input type="text" name="searchfor">
+  <!-- Search Bar -->
+
+  <div class="input-icons">
+    <p class="material-icons" id="searchicon">search</p>
+    <p class="material-icons" id="micicon">mic</i>
+    <form>
+      <input type="text" id="searchterm" name="searchterm">
     </form>
-    <!-- Buttons Bar -->
-    <div class=submitbuttons>
+
+  </div>
+
+  <!-- Submit Buttons -->
+  <div>
+    <form>
+      <input class="buttons" type="submit" value="Google Search">
+      <input class="buttons" type="submit" value="I'm Feeling Lucky">
+    </form>
+  </div>
+
+  <!-- Language -->
+  <div class="language">
+    <p>
+      Google offered in: <a href="BM">Bahasa Melayu</a>
+    </p>
+  </div>
+
+  <!-- Country Nav Bar -->
+  <div class="fullfooter">
+    <nav class="countrynavbar">
       <p>
-        <input class=buttons type=submit value="Google Search"></p>
-      <p>
+        Malaysia
+      </p>
+    </nav>
 
-        <input class=buttons type=submit value="I'm Feeling Lucky"></p>
-    </div>
-    <!-- Language choice -->
-    <p class=languagebar>Google offered in: Bahasa Melayu</p>
+    <!-- Footer -->
 
-    <!-- Country -->
-    <div class=country>
-      <p>Malaysia</p>
-    </div>
-
-    <!-- Bottom Bar Left -->
-    <div class=bottombarleft>
-      <ul>
-        <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwj78MebyafyAhW3xDgGHapvCn8QkNQCCA4&url=https%3A%2F%2Fabout.google%2F%3Futm_source%3Dgoogle-MY%26utm_medium%3Dreferral%26utm_campaign%3Dhp-footer%26fg%3D1&usg=AOvVaw3kdIO3KpWUj2XKCiMQzSru">About</a></li>
-        <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwj78MebyafyAhW3xDgGHapvCn8QkdQCCA8&url=https%3A%2F%2Fwww.google.com%2Fintl%2Fen_my%2Fads%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&usg=AOvVaw1ZdmmXJUVZ2oYrYLSabVSH">Advertising</a></li>
-        <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwj78MebyafyAhW3xDgGHapvCn8QktQCCBA&url=https%3A%2F%2Fwww.google.com%2Fservices%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&usg=AOvVaw2SJ4zwRVXKyZr53qG9dm4K">Business</a></li>
-        <li><a href="https://google.com/search/howsearchworks/?fg=1">How Search works</a></li>
+    <nav class="footer">
+      <ul class="footerul">
+        <li class="footerli">About</li>
+        <li class="footerli">Advertising</li>
+        <li class="footerli">Business</li>
+        <li class="footerli">How Search works</li>
+        <li class="footerli" style="float:right">Settings</li>
+        <li class="footerli" style="float:right">Terms</li>
+        <li class="footerli" style="float:right">Privacy</li>
 
       </ul>
-      <!-- Bottom Bar Right -->
-      <div>
-        <ul class=bottombarright>
-
-          <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwj78MebyafyAhW3xDgGHapvCn8Q8awCCBE&url=https%3A%2F%2Fpolicies.google.com%2Fprivacy%3Fhl%3Den-MY%26fg%3D1&usg=AOvVaw1-BH-ROtrRG6X1B7rY_DOz">Privacy</a></li>
-          <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwj78MebyafyAhW3xDgGHapvCn8Q8qwCCBI&url=https%3A%2F%2Fpolicies.google.com%2Fterms%3Fhl%3Den-MY%26fg%3D1&usg=AOvVaw3OF_GoHiYK_-LhYPzi4aZN">Terms</a></li>
-          <li>Settings</li>
-
-        </ul>
-      </div>
-    </div>
-
-
-  </body>
+    </nav>
+  </div>
+</body>
 
 </html>
